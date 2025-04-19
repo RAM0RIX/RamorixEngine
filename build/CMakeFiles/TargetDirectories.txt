@@ -1,0 +1,10 @@
+C:/dev/projects/RamorixEngine/build/CMakeFiles/INSTALL.dir
+C:/dev/projects/RamorixEngine/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/projects/RamorixEngine/build/CMakeFiles/ZERO_CHECK.dir
+C:/dev/projects/RamorixEngine/build/libs/spdlog/CMakeFiles/spdlog.dir
+C:/dev/projects/RamorixEngine/build/libs/spdlog/CMakeFiles/INSTALL.dir
+C:/dev/projects/RamorixEngine/build/libs/spdlog/CMakeFiles/ALL_BUILD.dir
+C:/dev/projects/RamorixEngine/build/Core/CMakeFiles/RamorixEngineCore.dir
+C:/dev/projects/RamorixEngine/build/Core/CMakeFiles/INSTALL.dir
+C:/dev/projects/RamorixEngine/build/Client/CMakeFiles/RamorixEngineClient.dir
+C:/dev/projects/RamorixEngine/build/Client/CMakeFiles/INSTALL.dir

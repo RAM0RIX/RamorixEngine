@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/CheckSymbolExists.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/FindThreads.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/GNUInstallDirs.cmake
+C:/Users/Admin/scoop/apps/cmake/3.30.2/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/dev/projects/RamorixEngine/libs/spdlog/CMakeLists.txt
+C:/dev/projects/RamorixEngine/libs/spdlog/cmake/ide.cmake
+C:/dev/projects/RamorixEngine/libs/spdlog/cmake/utils.cmake
