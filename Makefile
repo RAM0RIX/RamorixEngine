@@ -9,16 +9,16 @@ vs: mkdir
 vsreconfig: clean mkdir vs
 	devenv "build\Ramorix Engine.sln"
 
-vsbuilddbg:
+vsbuilddbg: vsreconfig
 	cmake --build $(BUILD_DIR) --config Debug
 
-vsbuildrel:
+vsbuildrel: vsreconfig
 	cmake --build $(BUILD_DIR) --config Release
 
-vsbuildreldbg:
+vsbuildreldbg: vsreconfig
 	cmake --build $(BUILD_DIR) --config RelWithDebInfo
 
-vsbuilddist:
+vsbuilddist: vsreconfig
 	cmake --build $(BUILD_DIR) --config MinSizeRel
 
 mkfs_win_dbg:
