@@ -499,5 +499,6 @@
     <Text Include="CMakeLists.txt" />
     <Text Include="Core\CMakeLists.txt" />
     <Text Include="Client\CMakeLists.txt" />
+    <Text Include="LICENSE.txt" />
   </ItemGroup>
 </Project>
