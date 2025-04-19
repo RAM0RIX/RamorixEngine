@@ -1,3 +1,5 @@
+#include <rmxpch.h>
+
 #include <rmx/Application.h>
 #include <rmx/Events/ApplicationEvent.h>
 #include <rmx/Log.h>
@@ -9,7 +11,7 @@ namespace rmx
     void Application::Run()
     {
         WindowResizeEvent e(1280, 720);
-        RMX_CLIENT_TRACE(e);
+        RMX_CLIENT_TRACE(e.ToString());
         while (true);
     }
 } // namespace rmx

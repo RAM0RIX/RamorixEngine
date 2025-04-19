@@ -1,8 +1,6 @@
-#include <rmx/Log.h>
+#include <rmxpch.h>
 
-#include <Windows.h>
-#include <iostream>
-#include <fstream>
+#include <rmx/Log.h>
 
 namespace rmx
 {
@@ -29,7 +27,7 @@ namespace rmx
     std::shared_ptr<spdlog::logger> Log::s_CoreLogger;
     std::shared_ptr<spdlog::logger> Log::s_ClientLogger;
 
-    void Log::Init()
+    void                            Log::Init()
     {
         spdlog::set_pattern("%^[%T] %n: %v%$");
 
@@ -37,8 +35,8 @@ namespace rmx
         s_CoreLogger->set_level(spdlog::level::trace);
 
         s_ClientLogger = spdlog::stdout_color_mt("App");
-        s_CoreLogger->set_level(spdlog::level::trace);
+        s_ClientLogger->set_level(spdlog::level::trace);
     }
 
-}
+} // namespace rmx
 

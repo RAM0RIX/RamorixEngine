@@ -6,19 +6,21 @@ SOURCE_DIR =.
 vs: mkdir
 	cmake -S . -B $(BUILD_DIR) -G "Visual Studio 17 2022" -DPLATFORM_WINDOWS=1
 
-vsreconfig: clean mkdir vs
+vsslnopen:
 	devenv "build\Ramorix Engine.sln"
 
-vsbuilddbg: vsreconfig
+vsreconfig: clean mkdir vs
+
+vsbuilddbg: vs
 	cmake --build $(BUILD_DIR) --config Debug
 
-vsbuildrel: vsreconfig
+vsbuildrel: vs
 	cmake --build $(BUILD_DIR) --config Release
 
-vsbuildreldbg: vsreconfig
+vsbuildreldbg: vs
 	cmake --build $(BUILD_DIR) --config RelWithDebInfo
 
-vsbuilddist: vsreconfig
+vsbuilddist: vs
 	cmake --build $(BUILD_DIR) --config MinSizeRel
 
 mkfs_win_dbg:

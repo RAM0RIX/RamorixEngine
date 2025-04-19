@@ -28,6 +28,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 include(SourceGroups)
 
 add_subdirectory("libs/spdlog")
+add_subdirectory("libs/glfw")
 
 add_subdirectory("Core")
 add_subdirectory("Client")

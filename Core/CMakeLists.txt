@@ -6,6 +6,7 @@ add_library(RamorixEngineCore SHARED ${CORE_SOURCES} ${CORE_HEADERS})
 target_link_libraries(RamorixEngineCore PRIVATE spdlog::spdlog)
 
 target_include_directories(RamorixEngineCore PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_precompile_headers(RamorixEngineCore PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/rmxpch.h)
 
 if(PLATFORM_WINDOWS)
     target_compile_definitions(RamorixEngineCore PRIVATE "RMX_BUILD_DLL"
